@@ -1,0 +1,142 @@
+﻿<svg width="100%" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Night Sky Gradient -->
+    <linearGradient id="skyGrad" x1="450" y1="0" x2="450" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#07080C"/>
+      <stop offset="55%" stop-color="#120D15"/>
+      <stop offset="85%" stop-color="#241117"/>
+      <stop offset="100%" stop-color="#11090F"/>
+    </linearGradient>
+
+    <!-- Mars Horizon Glow -->
+    <linearGradient id="horizonGlow" x1="450" y1="120" x2="450" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF5722" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF5722" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Dome Glow -->
+    <radialGradient id="domeGlow" cx="450" cy="180" r="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#00F0FF" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="rustAccent" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E05A47"/>
+      <stop offset="50%" stop-color="#FF7A59"/>
+      <stop offset="100%" stop-color="#E05A47"/>
+    </linearGradient>
+
+    <!-- Subtle Scanline / Grid Pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="30" y2="0" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+      <line x1="0" y1="0" x2="0" y2="30" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Base Panel -->
+  <rect width="900" height="280" rx="12" fill="url(#skyGrad)"/>
+  <rect width="900" height="280" rx="12" fill="url(#grid)"/>
+  <rect width="900" height="280" rx="12" stroke="#252636" stroke-width="1.5"/>
+
+  <!-- Mars Star Dust / Distant Nodes -->
+  <g fill="#FFFFFF" opacity="0.3">
+    <circle cx="85" cy="45" r="1"/>
+    <circle cx="160" cy="70" r="1"/>
+    <circle cx="230" cy="35" r="1.5" opacity="0.6"/>
+    <circle cx="340" cy="80" r="1"/>
+    <circle cx="580" cy="40" r="1"/>
+    <circle cx="670" cy="75" r="1.5" opacity="0.6"/>
+    <circle cx="790" cy="30" r="1"/>
+    <circle cx="840" cy="65" r="1"/>
+  </g>
+
+  <!-- Distant Martian Ridge Silhouettes -->
+  <path d="M0 195 Q140 165 310 185 T620 175 Q760 160 900 190 L900 280 L0 280 Z" fill="#140D14" opacity="0.85"/>
+  <path d="M0 205 Q220 180 460 200 T900 195 L900 280 L0 280 Z" fill="#0E090E"/>
+
+  <!-- Horizon Atmosphere Ambient -->
+  <rect x="0" y="140" width="900" height="80" fill="url(#horizonGlow)"/>
+
+  <!-- ARES CITY SETTLEMENT SILHOUETTE & HABITAT GEOMETRY -->
+  <g opacity="0.8">
+    <!-- Secondary Dome Left -->
+    <ellipse cx="280" cy="205" rx="65" ry="32" fill="#16121D" stroke="#E05A47" stroke-opacity="0.3" stroke-width="1"/>
+    <path d="M 230 205 Q 280 180 330 205" stroke="#E05A47" stroke-opacity="0.2" stroke-width="0.8" fill="none"/>
+    
+    <!-- Secondary Dome Right -->
+    <ellipse cx="620" cy="205" rx="65" ry="32" fill="#16121D" stroke="#E05A47" stroke-opacity="0.3" stroke-width="1"/>
+    <path d="M 570 205 Q 620 180 670 205" stroke="#E05A47" stroke-opacity="0.2" stroke-width="0.8" fill="none"/>
+
+    <!-- Central Ares Metropolis Biome Dome -->
+    <ellipse cx="450" cy="200" rx="130" ry="60" fill="#191322" stroke="#00F0FF" stroke-opacity="0.35" stroke-width="1.2"/>
+    <ellipse cx="450" cy="200" rx="130" ry="60" fill="url(#domeGlow)"/>
+    <!-- Dome Geodesic Arches -->
+    <path d="M 340 200 Q 450 150 560 200" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="1" fill="none"/>
+    <path d="M 380 200 Q 450 160 520 200" stroke="#00F0FF" stroke-opacity="0.2" stroke-width="0.8" fill="none"/>
+    <line x1="450" y1="140" x2="450" y2="200" stroke="#00F0FF" stroke-opacity="0.2" stroke-width="0.8"/>
+
+    <!-- Habitat Towers & Antenna Spires -->
+    <rect x="200" y="170" width="14" height="35" fill="#1B1724" stroke="#2D283E" stroke-width="1"/>
+    <rect x="225" y="155" width="18" height="50" fill="#171320" stroke="#2D283E" stroke-width="1"/>
+    <line x1="234" y1="135" x2="234" y2="155" stroke="#E05A47" stroke-width="1.2"/>
+    <circle cx="234" cy="135" r="2" fill="#FF5722"/>
+
+    <rect x="670" y="160" width="16" height="45" fill="#171320" stroke="#2D283E" stroke-width="1"/>
+    <rect x="695" y="175" width="12" height="30" fill="#1B1724" stroke="#2D283E" stroke-width="1"/>
+    <line x1="678" y1="140" x2="678" y2="160" stroke="#FFB300" stroke-width="1.2"/>
+    <circle cx="678" cy="140" r="2" fill="#FFB300"/>
+
+    <!-- Connecting Pressurized Transit Corridor Tube -->
+    <path d="M 120 206 L 780 206" stroke="#2D3045" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 120 206 L 780 206" stroke="#E05A47" stroke-width="1" stroke-dasharray="8 12" opacity="0.6"/>
+
+    <!-- Colony Window Lights / City Points -->
+    <g fill="#FFB300" opacity="0.85">
+      <circle cx="230" cy="165" r="1"/>
+      <circle cx="234" cy="172" r="1"/>
+      <circle cx="230" cy="180" r="1"/>
+      <circle cx="675" cy="170" r="1"/>
+      <circle cx="679" cy="178" r="1"/>
+      <circle cx="430" cy="190" r="1.2" fill="#00F0FF"/>
+      <circle cx="450" cy="185" r="1.2" fill="#00F0FF"/>
+      <circle cx="470" cy="190" r="1.2" fill="#00F0FF"/>
+      <circle cx="440" cy="195" r="1" fill="#FFFFFF"/>
+      <circle cx="460" cy="195" r="1" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- Foreground Dark Horizon Anchor -->
+  <rect x="0" y="215" width="900" height="65" fill="#0A060C" opacity="0.95"/>
+  <line x1="0" y1="215" x2="900" y2="215" stroke="#252636" stroke-width="1"/>
+
+  <!-- Precision Corner Reticles -->
+  <path d="M 18 36 L 18 18 L 36 18" stroke="#E05A47" stroke-width="2" fill="none"/>
+  <path d="M 882 36 L 882 18 L 864 18" stroke="#E05A47" stroke-width="2" fill="none"/>
+  <path d="M 18 244 L 18 262 L 36 262" stroke="#E05A47" stroke-width="2" fill="none"/>
+  <path d="M 882 244 L 882 262 L 864 262" stroke="#E05A47" stroke-width="2" fill="none"/>
+
+  <!-- Top Overline / World Context -->
+  <text x="450" y="44" fill="#8F95B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" font-weight="700" letter-spacing="3.5" text-anchor="middle">
+    ARES CITY // PERSONAL OPERATIONS NETWORK
+  </text>
+
+  <!-- Main Hero Operator Identity -->
+  <text x="450" y="96" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="900" letter-spacing="3" text-anchor="middle">
+    EPHRAIM BECKER
+  </text>
+
+  <!-- Node & Field Classification -->
+  <text x="450" y="126" fill="url(#rustAccent)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" font-weight="700" letter-spacing="2.5" text-anchor="middle">
+    NODE ONLINE · COMPUTER SCIENCE · GRAPHICS · SPATIAL COMPUTING
+  </text>
+
+  <!-- Telemetry Baseline Info -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" letter-spacing="1.2">
+    <circle cx="65" cy="245" r="4" fill="#22C55E"/>
+    <text x="78" y="249" fill="#22C55E" font-weight="600">NODE ACTIVE</text>
+    <text x="450" y="249" fill="#8F95B2" text-anchor="middle">[ SECTOR: 40.72° N, 73.65° W // ADELPHI UNIVERSITY ]</text>
+    <text x="835" y="249" fill="#8F95B2" text-anchor="end">SYS.VER 2.4.0</text>
+  </g>
+</svg>

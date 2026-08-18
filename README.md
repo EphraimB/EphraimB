@@ -1,131 +1,81 @@
 <div align="center">
 
-# 🛰️ ARES HABITAT OS // TELEMETRY TERMINAL
+<img src="./assets/hero-environment.svg" alt="Ares City // Personal Operations Network - Ephraim Becker" width="100%" />
 
-[![Operator: Ephraim Becker](https://img.shields.io/badge/OPERATOR-EPHRAIM%20BECKER-E05A47?style=for-the-badge&labelColor=1E1E2E)](https://github.com/EphraimB)
-[![Habitat Status](https://img.shields.io/badge/HABITAT-ONLINE%20%2F%2F%20SECTOR%20NY-E05A47?style=for-the-badge&labelColor=1E1E2E)](https://ephraimbecker.com)
-[![Academic Status](https://img.shields.io/badge/ACADEMIC-RISING%20JUNIOR%20%40%20ADELPHI-E05A47?style=for-the-badge&labelColor=1E1E2E)](https://www.adelphi.edu)
-[![Focus Field](https://img.shields.io/badge/FOCUS-GRAPHICS%20%26%20BCI%20SPATIAL%20UI-E05A47?style=for-the-badge&labelColor=1E1E2E)](https://ephraimbecker.com/portfolio)
+</div>
+
+<br>
+
+### Operator Profile
+
+> **Ephraim Becker** is an undergraduate Computer Science student (Rising Junior) at **Adelphi University** specializing in real-time graphics programming, full-stack systems, and spatial interfaces.
+>
+> His work focuses on transitioning foundational web architectures into high-performance C++ graphics systems, exploring how interactive environments can adaptively interface with spatial computing and human cognitive focus states.
+
+---
+
+### Deployed Infrastructure
+
+#### 🛰️ `NODE 01` — [Ares City Command Hub](https://ephraimbecker.com) &nbsp; `[DEPLOYED]`
+> **Central Habitat OS personal digital command station and ecosystem.**  
+> Engineered with retro-futuristic spatial layouts, modular workspaces, and colony telemetry navigation.
+> 
+> **Tech Stack:** `Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `Cloudflare Pages`  
+> **Direct Uplink:** [ephraimbecker.com ↗](https://ephraimbecker.com)
+
+#### 🚴 `NODE 02` — [Biking Forecast Engine](https://biking.ephraimbecker.com) &nbsp; `[DEPLOYED]`
+> **Real-time atmospheric telemetry and wind-vector route optimization engine.**  
+> Analyzes live weather feeds to compute route suitability scores and evaluate environmental conditions for cyclists.
+> 
+> **Tech Stack:** `TypeScript` · `React` · `Tailwind CSS` · `Vercel`  
+> **Direct Uplink:** [biking.ephraimbecker.com ↗](https://biking.ephraimbecker.com)
+
+#### 📂 `NODE 03` — [Portfolio Archives](https://ephraimbecker.com/portfolio) &nbsp; `[DEPLOYED]`
+> **Comprehensive retrospective engineering index and technical project repository.**  
+> Catalogs past and present software architectures, graphics experiments, and interactive web tools.
+> 
+> **Tech Stack:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Cloudflare Pages`  
+> **Direct Uplink:** [ephraimbecker.com/portfolio ↗](https://ephraimbecker.com/portfolio)
+
+---
+
+### Technical Architecture
+
+| Subsystem Layer | Technologies | Functional Scope |
+| :--- | :--- | :--- |
+| **Core Languages** | `C` · `C++` · `TypeScript` · `JavaScript` · `HTML5` · `CSS3` | Low-level systems programming, real-time rendering algorithms, and type-safe applications. |
+| **Interface & Surface** | `Next.js` · `React` · `Tailwind CSS` | Modular frontend architectures, reactive UI states, and responsive design systems. |
+| **Runtime & Infrastructure** | `Linux` · `Git` · `GitHub Actions` · `Cloudflare Pages` · `Vercel` | POSIX development environments, automated edge deployment, and CI/CD pipelines. |
+
+---
+
+### Research & Future Directions
+
+* `[RESEARCH]` **Adaptive Spatial Computing & BCI Focus Architectures** — Investigating theoretical interface frameworks that explore how spatial layouts and information density could dynamically adapt to user attention and cognitive workload.
+* `[IN DEVELOPMENT]` **High-Performance C++ Graphics Foundations** — Studying core rasterization math, memory-efficient data structures, and fundamental shader rendering pipelines.
+* `[RESEARCH]` **XR Navigation HUDs** — Conceptualizing heads-up display telemetry layouts for outdoor navigation and cycling environments.
+
+---
+
+### Node Telemetry
 
 ```text
-+---------------------------------------------------------------------------------------+
-|  [NODE: GITHUB-PROFILE-UPLINK]   [SYS.VER: 2.4.0-MARS]   [CORE: B.S. COMPUTER SCIENCE] |
-|  [TARGET: HIGH-PERF C++ GRAPHICS & REAL-TIME ADAPTIVE BCI SPATIAL INTERFACES]         |
-+---------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------+
+|  NETWORK TELEMETRY // EPHRAIM BECKER NODE                                     |
++-------------------------------------------------------------------------------+
+|  PRIMARY REPOSITORY : EphraimB/EphraimB             HOST: GITHUB CORE         |
+|  DEVELOPMENT STATUS : ACTIVE SYNCHRONIZATION        ORBIT: ADELPHI / NYC      |
+|  SYSTEM DIRECTIVE   : ADVANCING GRAPHICS & SPATIAL SYSTEMS                    |
++-------------------------------------------------------------------------------+
 ```
 
-</div>
-
-## `// MISSION PROFILE`
-
-Rising Junior pursuing a **B.S. in Computer Science at Adelphi University**. Focused on graphics programming, real-time rendering pipelines, and full-stack systems engineering. Actively bridging foundational web architecture with high-performance C++ graphics systems and adaptive spatial interfaces designed to respond to Brain-Computer Interface (BCI) focus states.
-
 ---
 
-## `// SUBSYSTEM MATRIX [SYSTEM TECH STACK]`
-
-<details open>
-<summary><b>▶ [EXPAND / COLLAPSE] 01. CORE LANGUAGES & SYSTEMS</b></summary>
-<br>
-
-[![C / C++](https://img.shields.io/badge/C%20%2F%20C%2B%2B-E05A47?style=flat-square&logo=cplusplus&logoColor=white&labelColor=1E1E2E)](https://isocpp.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-E05A47?style=flat-square&logo=typescript&logoColor=white&labelColor=1E1E2E)](https://www.typescriptlang.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-E05A47?style=flat-square&logo=javascript&logoColor=white&labelColor=1E1E2E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML5 / CSS3](https://img.shields.io/badge/HTML5%20%2F%20CSS3-E05A47?style=flat-square&logo=html5&logoColor=white&labelColor=1E1E2E)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
-
-> **Diagnostics:** Low-level and type-safe foundational languages powering real-time rendering, memory safety, and high-density algorithmic workloads.
-
-</details>
-
-<details open>
-<summary><b>▶ [EXPAND / COLLAPSE] 02. FRONTEND & INTERACTION SYSTEMS</b></summary>
-<br>
-
-[![Next.js](https://img.shields.io/badge/Next.js-E05A47?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=1E1E2E)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-E05A47?style=flat-square&logo=react&logoColor=white&labelColor=1E1E2E)](https://react.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-E05A47?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=1E1E2E)](https://tailwindcss.com/)
-
-> **Diagnostics:** Modular frontend architecture enabling reactive Mars Habitat OS interfaces, spatial component states, and responsive styling engines.
-
-</details>
-
-<details open>
-<summary><b>▶ [EXPAND / COLLAPSE] 03. INFRASTRUCTURE, OS & CI/CD PIPELINES</b></summary>
-<br>
-
-[![Linux](https://img.shields.io/badge/Linux-E05A47?style=flat-square&logo=linux&logoColor=white&labelColor=1E1E2E)](https://kernel.org/)
-[![Git](https://img.shields.io/badge/Git-E05A47?style=flat-square&logo=git&logoColor=white&labelColor=1E1E2E)](https://git-scm.com/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-E05A47?style=flat-square&logo=githubactions&logoColor=white&labelColor=1E1E2E)](https://github.com/features/actions)
-[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-E05A47?style=flat-square&logo=cloudflare&logoColor=white&labelColor=1E1E2E)](https://pages.cloudflare.com/)
-[![Vercel](https://img.shields.io/badge/Vercel-E05A47?style=flat-square&logo=vercel&logoColor=white&labelColor=1E1E2E)](https://vercel.com/)
-
-> **Diagnostics:** Automated edge deployments, version-controlled CI/CD telemetry, and POSIX development environments.
-
-</details>
-
----
-
-## `// DEPLOYMENT TELEMETRY [PROJECT SHOWCASE]`
-
-<details open>
-<summary><b>🛰️ TRANSMISSION 01: ARES CITY COMMAND HUB</b> — <code>[DEPLOYED // ONLINE]</code></summary>
-<br>
-
-- **Uplink:** [ephraimbecker.com](https://ephraimbecker.com)
-- **Architecture:** Mars Habitat OS portfolio console and personal digital command station. Features customized retro-futuristic telemetry layouts and interactive UI elements.
-- **Technologies:** `Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `Cloudflare Pages`
-
-</details>
-
-<details open>
-<summary><b>🚴 TRANSMISSION 02: BIKING FORECAST ENGINE</b> — <code>[DEPLOYED // ONLINE]</code></summary>
-<br>
-
-- **Uplink:** [biking.ephraimbecker.com](https://biking.ephraimbecker.com)
-- **Architecture:** Real-time atmospheric analysis and wind-vector route optimization engine designed to compute optimal cycling conditions from weather telemetry feeds.
-- **Technologies:** `TypeScript` · `React` · `Tailwind CSS` · `Vercel`
-
-</details>
-
-<details>
-<summary><b>📂 TRANSMISSION 03: PORTFOLIO INDEX & ARCHIVES</b> — <code>[DEPLOYED // ONLINE]</code></summary>
-<br>
-
-- **Uplink:** [ephraimbecker.com/portfolio](https://ephraimbecker.com/portfolio)
-- **Architecture:** Complete engineering portfolio index featuring interactive subsystem logs, research initiatives, and project breakdowns.
-- **Technologies:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Cloudflare Pages`
-
-</details>
-
----
-
-## `// HABITAT TELEMETRY METRICS`
-
-<div align="center">
-
-[![Subnet Followers](https://img.shields.io/github/followers/EphraimB?style=for-the-badge&logo=github&logoColor=white&labelColor=1E1E2E&color=E05A47&label=SUBNET%20PEERS)](https://github.com/EphraimB?tab=followers)
-[![Orbital Activity](https://img.shields.io/badge/COMMITS-SYNCHRONIZED-E05A47?style=for-the-badge&logo=git&logoColor=white&labelColor=1E1E2E)](https://github.com/EphraimB)
-[![Active Repositories](https://img.shields.io/badge/PAYLOADS-ACTIVE%20REPOSITORIES-E05A47?style=for-the-badge&logo=github&logoColor=white&labelColor=1E1E2E)](https://github.com/EphraimB?tab=repositories)
-
-<br><br>
-
-<a href="https://github.com/EphraimB">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EphraimB&bg_color=1E1E2E&color=E05A47&line=E05A47&point=FFFFFF&area=true&area_color=E05A47&title_color=E05A47&hide_border=true&custom_title=ARES%20TELEMETRY%20ACTIVITY%20STREAM" alt="Ares Telemetry Activity Stream" width="95%" />
-</a>
-
-</div>
-
----
-
-## `// HABITAT COMMS & UPLINK CHANNELS`
+### Communications
 
 ```text
-=================================================================================
-[ARES TERMINAL UPLINK VECTOR]
-├── 🌐 PORTFOLIO CORE   : https://ephraimbecker.com/portfolio
-├── 🛰️ COMMAND HUB      : https://ephraimbecker.com
-├── 💻 CODE REPOSITORIES : https://github.com/EphraimB
-└── 📡 LINKEDIN UPLINK  : https://linkedin.com/in/ephraim-becker
-=================================================================================
-[EOF - SYSTEM READY FOR NEXT INSTRUCTION]
+┌── [ARES CITY HUB]      https://ephraimbecker.com
+├── [PORTFOLIO ARCHIVE]  https://ephraimbecker.com/portfolio
+├── [CODE REPOSITORIES]  https://github.com/EphraimB
+└── [LINKEDIN PROFILE]   https://linkedin.com/in/ephraim-becker
 ```
