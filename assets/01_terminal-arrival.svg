@@ -1,7 +1,7 @@
-﻿<svg width="100%" height="auto" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="auto" viewBox="0 0 1000 340" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Martian Dusk Sky Gradient -->
-    <linearGradient id="skyGrad" x1="500" y1="0" x2="500" y2="360" gradientUnits="userSpaceOnUse">
+    <linearGradient id="skyGrad" x1="500" y1="0" x2="500" y2="340" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#06070B"/>
       <stop offset="45%" stop-color="#100B17"/>
       <stop offset="80%" stop-color="#241019"/>
@@ -9,13 +9,13 @@
     </linearGradient>
 
     <!-- Mars Horizon Ambient Dusk Glow -->
-    <linearGradient id="horizonGlow" x1="500" y1="130" x2="500" y2="290" gradientUnits="userSpaceOnUse">
+    <linearGradient id="horizonGlow" x1="500" y1="120" x2="500" y2="270" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#FF5722" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#FF5722" stop-opacity="0"/>
     </linearGradient>
 
     <!-- Dome Bioluminescent Glows -->
-    <radialGradient id="domeGlow" cx="500" cy="245" r="160" gradientUnits="userSpaceOnUse">
+    <radialGradient id="domeGlow" cx="500" cy="235" r="160" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.25">
         <animate attributeName="stop-opacity" values="0.18;0.35;0.18" dur="4.5s" repeatCount="indefinite"/>
       </stop>
@@ -45,88 +45,88 @@
   </defs>
 
   <!-- Base Canvas -->
-  <rect width="1000" height="360" rx="12" fill="url(#skyGrad)"/>
-  <rect width="1000" height="360" rx="12" fill="url(#hudGrid)"/>
-  <rect width="1000" height="360" rx="12" stroke="#252636" stroke-width="1.5"/>
+  <rect width="1000" height="340" rx="12" fill="url(#skyGrad)"/>
+  <rect width="1000" height="340" rx="12" fill="url(#hudGrid)"/>
+  <rect width="1000" height="340" rx="12" stroke="#252636" stroke-width="1.5"/>
 
   <!-- Star Dust Particles with Staggered Breathing Pulses -->
   <g fill="#FFFFFF">
-    <circle cx="80" cy="55" r="1" opacity="0.3"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="170" cy="85" r="1.2" opacity="0.5"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="1s" repeatCount="indefinite"/></circle>
-    <circle cx="260" cy="40" r="1" opacity="0.4"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="5s" begin="2s" repeatCount="indefinite"/></circle>
-    <circle cx="370" cy="75" r="1.5" opacity="0.6"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/></circle>
-    <circle cx="680" cy="45" r="1" opacity="0.3"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.5s" begin="0.5s" repeatCount="indefinite"/></circle>
-    <circle cx="790" cy="85" r="1.5" opacity="0.7"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" begin="1.5s" repeatCount="indefinite"/></circle>
-    <circle cx="890" cy="35" r="1" opacity="0.4"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" begin="2.5s" repeatCount="indefinite"/></circle>
-    <circle cx="940" cy="80" r="1.2" opacity="0.5"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="80" cy="50" r="1" opacity="0.3"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="170" cy="80" r="1.2" opacity="0.5"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="35" r="1" opacity="0.4"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="5s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="370" cy="70" r="1.5" opacity="0.6"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="40" r="1" opacity="0.3"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.5s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="80" r="1.5" opacity="0.7"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="890" cy="30" r="1" opacity="0.4"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" begin="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="75" r="1.2" opacity="0.5"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="5s" repeatCount="indefinite"/></circle>
   </g>
 
   <!-- Distant Martian Ridge Silhouettes -->
-  <path d="M0 235 Q160 200 380 225 T760 210 Q900 195 1000 230 L1000 360 L0 360 Z" fill="#130C13" opacity="0.9"/>
-  <path d="M0 250 Q260 220 560 245 T1000 240 L1000 360 L0 360 Z" fill="#0C070C"/>
-  <rect x="0" y="155" width="1000" height="135" fill="url(#horizonGlow)"/>
+  <path d="M0 220 Q160 185 380 210 T760 195 Q900 180 1000 215 L1000 340 L0 340 Z" fill="#130C13" opacity="0.9"/>
+  <path d="M0 235 Q260 205 560 230 T1000 225 L1000 340 L0 340 Z" fill="#0C070C"/>
+  <rect x="0" y="145" width="1000" height="125" fill="url(#horizonGlow)"/>
 
   <!-- Scanning Sweep Beam Moving Across Canvas -->
-  <rect x="0" y="160" width="120" height="120" fill="url(#scanBeamGrad)" opacity="0.6">
+  <rect x="0" y="150" width="120" height="120" fill="url(#scanBeamGrad)" opacity="0.6">
     <animate attributeName="x" values="-120;1000" dur="7s" repeatCount="indefinite"/>
   </rect>
 
   <!-- ARES CITY SETTLEMENT SILHOUETTE & ILLUMINATED BIODOMES -->
   <g opacity="0.9">
     <!-- Left Hab Dome -->
-    <ellipse cx="280" cy="255" rx="80" ry="38" fill="#15101C" stroke="#E05A47" stroke-opacity="0.35" stroke-width="1"/>
-    <path d="M 220 255 Q 280 228 340 255" stroke="#E05A47" stroke-opacity="0.25" stroke-width="0.8" fill="none"/>
+    <ellipse cx="280" cy="245" rx="80" ry="38" fill="#15101C" stroke="#E05A47" stroke-opacity="0.35" stroke-width="1"/>
+    <path d="M 220 245 Q 280 218 340 245" stroke="#E05A47" stroke-opacity="0.25" stroke-width="0.8" fill="none"/>
 
     <!-- Right Hab Dome -->
-    <ellipse cx="720" cy="255" rx="80" ry="38" fill="#15101C" stroke="#E05A47" stroke-opacity="0.35" stroke-width="1"/>
-    <path d="M 660 255 Q 720 228 780 255" stroke="#E05A47" stroke-opacity="0.25" stroke-width="0.8" fill="none"/>
+    <ellipse cx="720" cy="245" rx="80" ry="38" fill="#15101C" stroke="#E05A47" stroke-opacity="0.35" stroke-width="1"/>
+    <path d="M 660 245 Q 720 218 780 245" stroke="#E05A47" stroke-opacity="0.25" stroke-width="0.8" fill="none"/>
 
     <!-- Central Metropolis Geodesic Dome -->
-    <ellipse cx="500" cy="250" rx="150" ry="68" fill="#181124" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1.2"/>
-    <ellipse cx="500" cy="250" rx="150" ry="68" fill="url(#domeGlow)"/>
-    <path d="M 380 250 Q 500 195 620 250" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1" fill="none"/>
-    <path d="M 420 250 Q 500 205 580 250" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="0.8" fill="none"/>
-    <line x1="500" y1="182" x2="500" y2="250" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="0.8"/>
+    <ellipse cx="500" cy="240" rx="150" ry="68" fill="#181124" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1.2"/>
+    <ellipse cx="500" cy="240" rx="150" ry="68" fill="url(#domeGlow)"/>
+    <path d="M 380 240 Q 500 185 620 240" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1" fill="none"/>
+    <path d="M 420 240 Q 500 195 580 240" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="0.8" fill="none"/>
+    <line x1="500" y1="172" x2="500" y2="240" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="0.8"/>
 
     <!-- Spire Beacons with Staggered Pulses -->
-    <rect x="180" y="215" width="14" height="40" fill="#191322" stroke="#2D283E" stroke-width="1"/>
-    <line x1="187" y1="185" x2="187" y2="215" stroke="#E05A47" stroke-width="1.2"/>
-    <circle cx="187" cy="185" r="2.5" fill="#FF5722">
+    <rect x="180" y="205" width="14" height="40" fill="#191322" stroke="#2D283E" stroke-width="1"/>
+    <line x1="187" y1="175" x2="187" y2="205" stroke="#E05A47" stroke-width="1.2"/>
+    <circle cx="187" cy="175" r="2.5" fill="#FF5722">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
     </circle>
 
-    <rect x="810" y="210" width="16" height="45" fill="#191322" stroke="#2D283E" stroke-width="1"/>
-    <line x1="818" y1="180" x2="818" y2="210" stroke="#FFB300" stroke-width="1.2"/>
-    <circle cx="818" cy="180" r="2.5" fill="#FFB300">
+    <rect x="810" y="200" width="16" height="45" fill="#191322" stroke="#2D283E" stroke-width="1"/>
+    <line x1="818" y1="170" x2="818" y2="200" stroke="#FFB300" stroke-width="1.2"/>
+    <circle cx="818" cy="170" r="2.5" fill="#FFB300">
       <animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Pressurized Transit Tube with Continuous Light Stream -->
-    <path d="M 80 258 L 920 258" stroke="#23263B" stroke-width="4" stroke-linecap="round"/>
-    <path d="M 80 258 L 920 258" stroke="#00F0FF" stroke-width="1.5" stroke-dasharray="16 32" opacity="0.7">
+    <path d="M 80 248 L 920 248" stroke="#23263B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 80 248 L 920 248" stroke="#00F0FF" stroke-width="1.5" stroke-dasharray="16 32" opacity="0.7">
       <animate attributeName="stroke-dashoffset" values="0;-96" dur="3s" repeatCount="indefinite"/>
     </path>
 
     <!-- City Light Clusters -->
     <g fill="#FFB300">
-      <circle cx="184" cy="225" r="1.2"/>
-      <circle cx="188" cy="232" r="1.2"/>
-      <circle cx="814" cy="222" r="1.2"/>
-      <circle cx="820" cy="230" r="1.2"/>
-      <circle cx="475" cy="240" r="1.5" fill="#00F0FF"/>
-      <circle cx="500" cy="232" r="1.5" fill="#00F0FF"/>
-      <circle cx="525" cy="240" r="1.5" fill="#00F0FF"/>
+      <circle cx="184" cy="215" r="1.2"/>
+      <circle cx="188" cy="222" r="1.2"/>
+      <circle cx="814" cy="212" r="1.2"/>
+      <circle cx="820" cy="220" r="1.2"/>
+      <circle cx="475" cy="230" r="1.5" fill="#00F0FF"/>
+      <circle cx="500" cy="222" r="1.5" fill="#00F0FF"/>
+      <circle cx="525" cy="230" r="1.5" fill="#00F0FF"/>
     </g>
   </g>
 
   <!-- Foreground Horizon Divider -->
-  <line x1="20" y1="270" x2="980" y2="270" stroke="#252636" stroke-width="1.2"/>
+  <line x1="20" y1="260" x2="980" y2="260" stroke="#252636" stroke-width="1.2"/>
 
   <!-- Precision Corner Reticles -->
   <path d="M 18 36 L 18 18 L 36 18" stroke="#E05A47" stroke-width="2" fill="none"/>
   <path d="M 982 36 L 982 18 L 964 18" stroke="#E05A47" stroke-width="2" fill="none"/>
-  <path d="M 18 324 L 18 342 L 36 342" stroke="#E05A47" stroke-width="2" fill="none"/>
-  <path d="M 982 324 L 982 342 L 964 342" stroke="#E05A47" stroke-width="2" fill="none"/>
+  <path d="M 18 304 L 18 322 L 36 322" stroke="#E05A47" stroke-width="2" fill="none"/>
+  <path d="M 982 304 L 982 322 L 964 322" stroke="#E05A47" stroke-width="2" fill="none"/>
 
   <!-- Top Boot Header -->
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" letter-spacing="2">
@@ -139,31 +139,31 @@
   </g>
 
   <!-- Hero Operator Identity Typography -->
-  <text x="500" y="98" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" letter-spacing="4" text-anchor="middle">
+  <text x="500" y="94" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="900" letter-spacing="4" text-anchor="middle">
     EPHRAIM BECKER
   </text>
-  <text x="500" y="126" fill="url(#rustAccent)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" font-weight="700" letter-spacing="3" text-anchor="middle">
+  <text x="500" y="122" fill="url(#rustAccent)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12.5" font-weight="700" letter-spacing="3" text-anchor="middle">
     COMPUTER SCIENCE @ ADELPHI UNIVERSITY · GRAPHICS / SPATIAL SYSTEMS
   </text>
 
   <!-- System Initialization Status & Animated Progress Bar -->
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10.5" letter-spacing="1.5">
-    <text x="270" y="152" fill="#8F95B2">SYSTEM INITIALIZATION</text>
-    <text x="730" y="152" fill="#00F0FF" text-anchor="end" font-weight="700">74% // READY</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10" letter-spacing="1.5">
+    <text x="270" y="148" fill="#8F95B2">SYSTEM INITIALIZATION</text>
+    <text x="730" y="148" fill="#00F0FF" text-anchor="end" font-weight="700">74% // READY</text>
     
     <!-- Progress Bar Track -->
-    <rect x="270" y="158" width="460" height="7" rx="3.5" fill="#120E1A" stroke="#252636" stroke-width="1"/>
+    <rect x="270" y="154" width="460" height="6" rx="3" fill="#120E1A" stroke="#252636" stroke-width="1"/>
     <!-- Animated Loading Progress Fill -->
-    <rect x="272" y="160" width="340" height="3.5" rx="1.75" fill="url(#rustAccent)">
+    <rect x="272" y="156" width="340" height="2" rx="1" fill="url(#rustAccent)">
       <animate attributeName="width" values="310;355;310" dur="4s" repeatCount="indefinite"/>
     </rect>
   </g>
 
   <!-- Baseline Access Status -->
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" letter-spacing="1.5">
-    <circle cx="50" cy="308" r="3.5" fill="#22C55E"/>
-    <text x="62" y="312" fill="#22C55E" font-weight="600">ARES CITY ACCESS TERMINAL // READY</text>
-    <text x="500" y="312" fill="#8F95B2" text-anchor="middle">[ STATE: ESTABLISHING UPLINK ]</text>
-    <text x="950" y="312" fill="#8F95B2" text-anchor="end">ACCESS GRANTED ➔</text>
+    <circle cx="50" cy="295" r="3.5" fill="#22C55E"/>
+    <text x="62" y="299" fill="#22C55E" font-weight="600">ARES CITY ACCESS TERMINAL // READY</text>
+    <text x="500" y="299" fill="#8F95B2" text-anchor="middle">[ STATE: ESTABLISHING UPLINK ]</text>
+    <text x="950" y="299" fill="#8F95B2" text-anchor="end">ACCESS GRANTED ➔</text>
   </g>
 </svg>

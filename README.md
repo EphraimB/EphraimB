@@ -7,20 +7,19 @@
 <br>
 
 <details>
-  <summary><b>[ ACCESS DOSSIER ▸ ]</b> <code>OPERATOR ID: EPHRAIM BECKER</code></summary>
-
-```text
-OPERATOR PROFILE
-──────────────────────────────────────────────────────────
-OPERATOR        Ephraim Becker
-ACADEMIC NODE   Junior (B.S. Computer Science) @ Adelphi University
-SPECIALIZATION  Real-Time Graphics · Spatial Computing · Systems
-LOCATION        New York, USA
-
-CURRENT VECTOR
-──────────────────────────────────────────────────────────
-Transitioning web engineering foundations into high-performance C++ graphics pipelines and exploring adaptive spatial interfaces that interface with cognitive focus states.
-```
+  <summary><b>[ ACCESS DOSSIER ▸ ]</b> &nbsp; <code>OPERATOR ID: EPHRAIM BECKER</code></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td>
+        <sub><b>OPERATOR PROFILE // ACTIVE NODE</b></sub><br>
+        <b>Ephraim Becker</b> is an undergraduate Computer Science student (Rising Junior) at <b>Adelphi University</b> specializing in real-time graphics pipelines, full-stack systems engineering, and spatial computing interfaces.
+        <br><br>
+        <sub><b>CURRENT VECTOR</b></sub><br>
+        Transitioning web engineering foundations into high-performance C++ graphics pipelines and exploring adaptive spatial interfaces that interface with cognitive focus states.
+      </td>
+    </tr>
+  </table>
 </details>
 
 <br>
@@ -34,57 +33,60 @@ Transitioning web engineering foundations into high-performance C++ graphics pip
 <br>
 
 <details>
-  <summary><b>[ INSPECT NODE 01 ▸ ]</b> <b>ARES CITY COMMAND HUB</b> <code>[● ONLINE]</code></summary>
-
-```text
-NODE SPECIFICATION // 01
-──────────────────────────────────────────────────────────
-CLASSIFICATION  PRIMARY HABITAT OS NEXUS
-STATUS          ● ONLINE // PRODUCTION
-STACK           Next.js · React · TypeScript · Tailwind CSS · Cloudflare Pages
-ENDPOINT        https://ephraimbecker.com
-
-ARCHITECTURE
-──────────────────────────────────────────────────────────
-Central Habitat OS personal digital ecosystem and spatial workspace console. Engineered with retro-futuristic spatial layouts, modular windowed applications, and colony telemetry navigation.
-```
-<p align="right"><a href="https://ephraimbecker.com"><b>[ LAUNCH NODE 01 ↗ ]</b></a></p>
+  <summary><b>[ INSPECT NODE 01 ▸ ]</b> &nbsp; <b>ARES CITY COMMAND HUB</b> &nbsp; <code>● ONLINE</code></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td>
+        <sub><b>NODE SPECIFICATION // 01</b></sub><br>
+        <b>CLASSIFICATION:</b> Primary Habitat OS Nexus &amp; Personal Operations Center<br>
+        <b>STATUS:</b> <code>● ONLINE // PRODUCTION</code><br>
+        <b>STACK:</b> <code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · <code>Cloudflare Pages</code>
+        <p><b>ARCHITECTURE:</b> Central Habitat OS personal digital ecosystem and spatial workspace console. Engineered with retro-futuristic spatial layouts, modular windowed applications, and colony telemetry navigation.</p>
+        <div align="right">
+          <a href="https://ephraimbecker.com"><b>[ LAUNCH NODE 01 ↗ ]</b></a>
+        </div>
+      </td>
+    </tr>
+  </table>
 </details>
 
 <details>
-  <summary><b>[ INSPECT NODE 02 ▸ ]</b> <b>BIKING FORECAST ENGINE</b> <code>[● ONLINE]</code></summary>
-
-```text
-NODE SPECIFICATION // 02
-──────────────────────────────────────────────────────────
-CLASSIFICATION  ATMOSPHERIC ROUTE & VECTOR OPTIMIZATION SATELLITE
-STATUS          ● ONLINE // PRODUCTION
-STACK           TypeScript · React · Tailwind CSS · Vercel
-ENDPOINT        https://biking.ephraimbecker.com
-
-ARCHITECTURE
-──────────────────────────────────────────────────────────
-Real-time atmospheric telemetry and wind-vector route optimization engine for cyclists. Parses live meteorological data to calculate optimal riding vectors and exposure risks.
-```
-<p align="right"><a href="https://biking.ephraimbecker.com"><b>[ LAUNCH NODE 02 ↗ ]</b></a></p>
+  <summary><b>[ INSPECT NODE 02 ▸ ]</b> &nbsp; <b>BIKING FORECAST ENGINE</b> &nbsp; <code>● ONLINE</code></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td>
+        <sub><b>NODE SPECIFICATION // 02</b></sub><br>
+        <b>CLASSIFICATION:</b> Real-Time Atmospheric Vector Satellite<br>
+        <b>STATUS:</b> <code>● ONLINE // PRODUCTION</code><br>
+        <b>STACK:</b> <code>TypeScript</code> · <code>React</code> · <code>Tailwind CSS</code> · <code>Vercel</code>
+        <p><b>ARCHITECTURE:</b> Real-time atmospheric telemetry and wind-vector route optimization engine for cyclists. Parses live meteorological data to calculate optimal riding vectors and exposure risks.</p>
+        <div align="right">
+          <a href="https://biking.ephraimbecker.com"><b>[ LAUNCH NODE 02 ↗ ]</b></a>
+        </div>
+      </td>
+    </tr>
+  </table>
 </details>
 
 <details>
-  <summary><b>[ INSPECT NODE 03 ▸ ]</b> <b>PORTFOLIO ARCHIVES</b> <code>[● ONLINE]</code></summary>
-
-```text
-NODE SPECIFICATION // 03
-──────────────────────────────────────────────────────────
-CLASSIFICATION  CENTRAL ENGINEERING INDEX & RETROSPECTIVE VAULT
-STATUS          ● ONLINE // PRODUCTION
-STACK           Next.js · TypeScript · Tailwind CSS · Cloudflare Pages
-ENDPOINT        https://ephraimbecker.com/portfolio
-
-ARCHITECTURE
-──────────────────────────────────────────────────────────
-Complete repository of past and present software architectures, graphics experiments, and interactive applications structured for technical review.
-```
-<p align="right"><a href="https://ephraimbecker.com/portfolio"><b>[ LAUNCH NODE 03 ↗ ]</b></a></p>
+  <summary><b>[ INSPECT NODE 03 ▸ ]</b> &nbsp; <b>PORTFOLIO ARCHIVES</b> &nbsp; <code>● ONLINE</code></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td>
+        <sub><b>NODE SPECIFICATION // 03</b></sub><br>
+        <b>CLASSIFICATION:</b> Central Engineering Index &amp; Retrospective Vault<br>
+        <b>STATUS:</b> <code>● ONLINE // PRODUCTION</code><br>
+        <b>STACK:</b> <code>Next.js</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · <code>Cloudflare Pages</code>
+        <p><b>ARCHITECTURE:</b> Complete repository of past and present software architectures, graphics experiments, and interactive applications structured for technical review.</p>
+        <div align="right">
+          <a href="https://ephraimbecker.com/portfolio"><b>[ LAUNCH NODE 03 ↗ ]</b></a>
+        </div>
+      </td>
+    </tr>
+  </table>
 </details>
 
 <br>
@@ -98,56 +100,51 @@ Complete repository of past and present software architectures, graphics experim
 <br>
 
 <details>
-  <summary><b>[ INSPECT CORE ▸ ]</b> <b>LANGUAGES &amp; SYSTEMS</b></summary>
-
-```text
-CORE SYSTEMS // LAYER 01
-──────────────────────────────────────────────────────────
-PRIMARY         C++ / C
-APPLICATION     TypeScript / JavaScript
-SURFACE         HTML5 / CSS3
-
-TECHNICAL VECTORS
-──────────────────────────────────────────────────────────
-• Low-level memory management and allocation strategies
-• Real-time rasterization algorithms and shader structures
-• Type-safe application architecture
-```
+  <summary><b>[ INSPECT CORE ▸ ]</b> &nbsp; <b>LAYER 01 // LANGUAGES &amp; SYSTEMS</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td>
+        <sub><b>CORE SYSTEMS // LAYER 01</b></sub><br>
+        <b>PRIMARY:</b> <code>C</code> · <code>C++</code><br>
+        <b>APPLICATION:</b> <code>TypeScript</code> · <code>JavaScript</code><br>
+        <b>SURFACE:</b> <code>HTML5</code> · <code>CSS3</code>
+        <p><b>TECHNICAL VECTORS:</b> Low-level memory allocation, real-time rasterization algorithms, and type-safe systems.</p>
+      </td>
+    </tr>
+  </table>
 </details>
 
 <details>
-  <summary><b>[ INSPECT SURFACE ▸ ]</b> <b>INTERFACE &amp; SPATIAL UX</b></summary>
-
-```text
-SURFACE & SPATIAL UX // LAYER 02
-──────────────────────────────────────────────────────────
-FRAMEWORKS      Next.js · React
-STYLING         Tailwind CSS · Custom Design Systems
-METHODOLOGY     Modular Component Hierarchies · Reactive State
-
-TECHNICAL VECTORS
-──────────────────────────────────────────────────────────
-• Spatial interface primitives and modular layouts
-• Responsive cross-device viewport adaptation
-• Accessible keyboard & screen-reader navigation
-```
+  <summary><b>[ INSPECT SURFACE ▸ ]</b> &nbsp; <b>LAYER 02 // INTERFACE &amp; SPATIAL UX</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td>
+        <sub><b>SURFACE &amp; SPATIAL UX // LAYER 02</b></sub><br>
+        <b>FRAMEWORKS:</b> <code>Next.js</code> · <code>React</code><br>
+        <b>STYLING:</b> <code>Tailwind CSS</code> · Custom Design Systems<br>
+        <b>METHODOLOGY:</b> Modular Component Hierarchies · Reactive State
+        <p><b>TECHNICAL VECTORS:</b> Spatial interface primitives, responsive viewports, and keyboard/screen-reader accessibility.</p>
+      </td>
+    </tr>
+  </table>
 </details>
 
 <details>
-  <summary><b>[ INSPECT RUNTIME ▸ ]</b> <b>INFRASTRUCTURE &amp; CI/CD</b></summary>
-
-```text
-RUNTIME & INFRASTRUCTURE // LAYER 03
-──────────────────────────────────────────────────────────
-ENVIRONMENT     Linux / POSIX Shell
-VERSION CONTROL Git · GitHub Actions (CI/CD)
-EDGE DEPLOYMENT Cloudflare Pages · Vercel
-
-TECHNICAL VECTORS
-──────────────────────────────────────────────────────────
-• Automated build, linting, and continuous deployment workflows
-• Multi-edge CDN routing and serverless runtime execution
-```
+  <summary><b>[ INSPECT RUNTIME ▸ ]</b> &nbsp; <b>LAYER 03 // INFRASTRUCTURE &amp; CI/CD</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td>
+        <sub><b>RUNTIME &amp; INFRASTRUCTURE // LAYER 03</b></sub><br>
+        <b>ENVIRONMENT:</b> <code>Linux</code> / POSIX Shell<br>
+        <b>VERSION CONTROL:</b> <code>Git</code> · <code>GitHub Actions (CI/CD)</code><br>
+        <b>EDGE DEPLOYMENT:</b> <code>Cloudflare Pages</code> · <code>Vercel</code>
+        <p><b>TECHNICAL VECTORS:</b> Automated continuous integration pipelines, multi-edge CDN routing, and serverless runtime execution.</p>
+      </td>
+    </tr>
+  </table>
 </details>
 
 <br>
@@ -161,51 +158,51 @@ TECHNICAL VECTORS
 <br>
 
 <details>
-  <summary><b>[○ RESEARCH]</b> <b>ADAPTIVE BCI SPATIAL INTERFACES</b></summary>
-
-```text
-RESEARCH VECTOR // 01
-──────────────────────────────────────────────────────────
-STATUS          ○ THEORETICAL RESEARCH
-DOMAIN          SPATIAL COMPUTING / NEURAL INTERFACES
-VECTOR          ATTENTION & COGNITIVE WORKLOAD ADAPTATION
-
-INVESTIGATION
-──────────────────────────────────────────────────────────
-Investigating theoretical interface frameworks that explore how spatial layouts, visual hierarchy, and information density could dynamically adapt to real-time user attention and cognitive workload states.
-```
+  <summary><b>[○ RESEARCH]</b> &nbsp; <b>ADAPTIVE BCI SPATIAL INTERFACES</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td>
+        <sub><b>RESEARCH VECTOR // 01</b></sub><br>
+        <b>STATUS:</b> <code>[○ THEORETICAL RESEARCH]</code><br>
+        <b>DOMAIN:</b> Spatial Computing / Neural Interfaces<br>
+        <b>VECTOR:</b> Attention &amp; Cognitive Workload Adaptation
+        <p><b>INVESTIGATION:</b> Investigating theoretical interface frameworks that explore how spatial layouts, visual hierarchy, and information density could dynamically adapt to real-time user attention and cognitive workload states.</p>
+      </td>
+    </tr>
+  </table>
 </details>
 
 <details>
-  <summary><b>[◐ BUILDING]</b> <b>REAL-TIME C++ GRAPHICS ENGINES</b></summary>
-
-```text
-RESEARCH VECTOR // 02
-──────────────────────────────────────────────────────────
-STATUS          ◐ ACTIVE ENGINEERING BUILD
-DOMAIN          GRAPHICS SYSTEMS / REAL-TIME RENDERING
-VECTOR          SOFTWARE RASTERIZATION & SHADER PIPELINES
-
-INVESTIGATION
-──────────────────────────────────────────────────────────
-Building custom rasterization mathematics, memory-efficient data structures, and fundamental shader rendering pipelines from first principles to master low-level rendering mechanics.
-```
+  <summary><b>[◐ BUILDING]</b> &nbsp; <b>REAL-TIME C++ GRAPHICS ENGINES</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td>
+        <sub><b>RESEARCH VECTOR // 02</b></sub><br>
+        <b>STATUS:</b> <code>[◐ ACTIVE ENGINEERING BUILD]</code><br>
+        <b>DOMAIN:</b> Graphics Systems / Real-Time Rendering<br>
+        <b>VECTOR:</b> Software Rasterization &amp; Shader Pipelines
+        <p><b>INVESTIGATION:</b> Building custom rasterization mathematics, memory-efficient data structures, and fundamental shader rendering pipelines from first principles to master low-level rendering mechanics.</p>
+      </td>
+    </tr>
+  </table>
 </details>
 
 <details>
-  <summary><b>[◇ CONCEPT]</b> <b>XR NAVIGATION HUDS</b></summary>
-
-```text
-RESEARCH VECTOR // 03
-──────────────────────────────────────────────────────────
-STATUS          ◇ INTERFACE CONCEPT
-DOMAIN          EXTENDED REALITY (XR) / TELEMETRY
-VECTOR          HEADS-UP DISPLAY ROUTE TELEMETRY
-
-INVESTIGATION
-──────────────────────────────────────────────────────────
-Conceptualizing spatial heads-up display telemetry layouts and peripheral visual cues for dynamic outdoor navigation and high-speed cycling environments.
-```
+  <summary><b>[◇ CONCEPT]</b> &nbsp; <b>XR NAVIGATION HUDS</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td>
+        <sub><b>RESEARCH VECTOR // 03</b></sub><br>
+        <b>STATUS:</b> <code>[◇ INTERFACE CONCEPT]</code><br>
+        <b>DOMAIN:</b> Extended Reality (XR) / Telemetry<br>
+        <b>VECTOR:</b> Heads-Up Display Route Telemetry
+        <p><b>INVESTIGATION:</b> Conceptualizing spatial heads-up display telemetry layouts and peripheral visual cues for dynamic outdoor navigation and high-speed cycling environments.</p>
+      </td>
+    </tr>
+  </table>
 </details>
 
 <br><br>
