@@ -16,21 +16,29 @@
 
 ### Deployed Infrastructure
 
-#### 🛰️ `NODE 01` — [Ares City Command Hub](https://ephraimbecker.com) &nbsp; `[DEPLOYED]`
+<div align="center">
+
+<img src="./assets/infrastructure-network.svg" alt="Ares City Infrastructure Network Topology" width="100%" />
+
+</div>
+
+<br>
+
+#### 🛰️ `NODE 01` — [Ares City Command Hub](https://ephraimbecker.com) &nbsp; `[● DEPLOYED // LIVE]`
 > **Central Habitat OS personal digital command station and ecosystem.**  
 > Engineered with retro-futuristic spatial layouts, modular workspaces, and colony telemetry navigation.
 > 
 > **Tech Stack:** `Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `Cloudflare Pages`  
 > **Direct Uplink:** [ephraimbecker.com ↗](https://ephraimbecker.com)
 
-#### 🚴 `NODE 02` — [Biking Forecast Engine](https://biking.ephraimbecker.com) &nbsp; `[DEPLOYED]`
+#### 🚴 `NODE 02` — [Biking Forecast Engine](https://biking.ephraimbecker.com) &nbsp; `[● DEPLOYED // LIVE]`
 > **Real-time atmospheric telemetry and wind-vector route optimization engine.**  
 > Analyzes live weather feeds to compute route suitability scores and evaluate environmental conditions for cyclists.
 > 
 > **Tech Stack:** `TypeScript` · `React` · `Tailwind CSS` · `Vercel`  
 > **Direct Uplink:** [biking.ephraimbecker.com ↗](https://biking.ephraimbecker.com)
 
-#### 📂 `NODE 03` — [Portfolio Archives](https://ephraimbecker.com/portfolio) &nbsp; `[DEPLOYED]`
+#### 📂 `NODE 03` — [Portfolio Archives](https://ephraimbecker.com/portfolio) &nbsp; `[● DEPLOYED // LIVE]`
 > **Comprehensive retrospective engineering index and technical project repository.**  
 > Catalogs past and present software architectures, graphics experiments, and interactive web tools.
 > 
@@ -40,6 +48,14 @@
 ---
 
 ### Technical Architecture
+
+<div align="center">
+
+<img src="./assets/system-architecture.svg" alt="Technical Subsystem Architecture Pipeline" width="100%" />
+
+</div>
+
+<br>
 
 | Subsystem Layer | Technologies | Functional Scope |
 | :--- | :--- | :--- |
@@ -51,9 +67,17 @@
 
 ### Research & Future Directions
 
-* `[RESEARCH]` **Adaptive Spatial Computing & BCI Focus Architectures** — Investigating theoretical interface frameworks that explore how spatial layouts and information density could dynamically adapt to user attention and cognitive workload.
-* `[IN DEVELOPMENT]` **High-Performance C++ Graphics Foundations** — Studying core rasterization math, memory-efficient data structures, and fundamental shader rendering pipelines.
-* `[RESEARCH]` **XR Navigation HUDs** — Conceptualizing heads-up display telemetry layouts for outdoor navigation and cycling environments.
+<div align="center">
+
+<img src="./assets/research-constellation.svg" alt="Spatial Computing Research Constellation" width="100%" />
+
+</div>
+
+<br>
+
+* `[RESEARCH / CONCEPTUAL]` **Adaptive Spatial Computing & BCI Focus Architectures** — Investigating theoretical interface frameworks that explore how spatial layouts and information density could dynamically adapt to user attention and cognitive workload.
+* `[IN ACTIVE DEVELOPMENT]` **High-Performance C++ Graphics Foundations** — Studying core rasterization math, memory-efficient data structures, and fundamental shader rendering pipelines.
+* `[RESEARCH / CONCEPTUAL]` **XR Navigation HUDs** — Conceptualizing heads-up display telemetry layouts for outdoor navigation and cycling environments.
 
 ---
 
@@ -64,7 +88,7 @@
 |  NETWORK TELEMETRY // EPHRAIM BECKER NODE                                     |
 +-------------------------------------------------------------------------------+
 |  PRIMARY REPOSITORY : EphraimB/EphraimB             HOST: GITHUB CORE         |
-|  DEVELOPMENT STATUS : ACTIVE SYNCHRONIZATION        ORBIT: ADELPHI / NYC      |
+|  DEVELOPMENT STATUS : ACTIVE SYNCHRONIZATION        LOCATION: NEW YORK        |
 |  SYSTEM DIRECTIVE   : ADVANCING GRAPHICS & SPATIAL SYSTEMS                    |
 +-------------------------------------------------------------------------------+
 ```

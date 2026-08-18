@@ -1,0 +1,52 @@
+﻿<svg width="100%" height="150" viewBox="0 0 900 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="archBg" x1="450" y1="0" x2="450" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08090E"/>
+      <stop offset="100%" stop-color="#140F18"/>
+    </linearGradient>
+
+    <pattern id="gridArch" width="30" height="30" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="30" y2="0" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+      <line x1="0" y1="0" x2="0" y2="30" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Panel Base -->
+  <rect width="900" height="150" rx="10" fill="url(#archBg)"/>
+  <rect width="900" height="150" rx="10" fill="url(#gridArch)"/>
+  <rect width="900" height="150" rx="10" stroke="#252636" stroke-width="1.5"/>
+
+  <!-- Corner Reticles -->
+  <path d="M 14 24 L 14 14 L 24 14" stroke="#E05A47" stroke-width="1.5" fill="none"/>
+  <path d="M 886 24 L 886 14 L 876 14" stroke="#E05A47" stroke-width="1.5" fill="none"/>
+  <path d="M 14 126 L 14 136 L 24 136" stroke="#E05A47" stroke-width="1.5" fill="none"/>
+  <path d="M 886 126 L 886 136 L 876 136" stroke="#E05A47" stroke-width="1.5" fill="none"/>
+
+  <!-- Pipeline Signal Connectors -->
+  <path d="M 285 75 L 325 75" stroke="#E05A47" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="325,75 318,71 318,79" fill="#E05A47"/>
+
+  <path d="M 575 75 L 615 75" stroke="#E05A47" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="615,75 608,71 608,79" fill="#E05A47"/>
+
+  <!-- LAYER 01: CORE LANGUAGES -->
+  <rect x="40" y="22" width="245" height="106" rx="8" fill="#120E1A" stroke="#2B2D42" stroke-width="1.2"/>
+  <text x="56" y="44" fill="#E05A47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10" font-weight="700" letter-spacing="1.5">[ LAYER 01 // FOUNDATION ]</text>
+  <text x="56" y="68" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">CORE LANGUAGES</text>
+  <text x="56" y="93" fill="#CDD6F4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11">C · C++ · TypeScript</text>
+  <text x="56" y="112" fill="#8F95B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10">JavaScript · HTML5 / CSS3</text>
+
+  <!-- LAYER 02: INTERFACE & SURFACE -->
+  <rect x="330" y="22" width="245" height="106" rx="8" fill="#120E1A" stroke="#2B2D42" stroke-width="1.2"/>
+  <text x="346" y="44" fill="#00F0FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10" font-weight="700" letter-spacing="1.5">[ LAYER 02 // SURFACE ]</text>
+  <text x="346" y="68" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">INTERFACE &amp; UX</text>
+  <text x="346" y="93" fill="#CDD6F4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11">Next.js · React</text>
+  <text x="346" y="112" fill="#8F95B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10">Tailwind CSS · Spatial Layouts</text>
+
+  <!-- LAYER 03: RUNTIME & INFRASTRUCTURE -->
+  <rect x="620" y="22" width="245" height="106" rx="8" fill="#120E1A" stroke="#2B2D42" stroke-width="1.2"/>
+  <text x="636" y="44" fill="#FFB300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10" font-weight="700" letter-spacing="1.5">[ LAYER 03 // DEPLOYMENT ]</text>
+  <text x="636" y="68" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800">INFRASTRUCTURE</text>
+  <text x="636" y="93" fill="#CDD6F4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11">Linux · Git · GitHub Actions</text>
+  <text x="636" y="112" fill="#8F95B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10">Cloudflare Pages · Vercel</text>
+</svg>

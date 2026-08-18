@@ -1,6 +1,5 @@
 ﻿<svg width="100%" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Night Sky Gradient -->
     <linearGradient id="skyGrad" x1="450" y1="0" x2="450" y2="280" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#07080C"/>
       <stop offset="55%" stop-color="#120D15"/>
@@ -8,27 +7,23 @@
       <stop offset="100%" stop-color="#11090F"/>
     </linearGradient>
 
-    <!-- Mars Horizon Glow -->
     <linearGradient id="horizonGlow" x1="450" y1="120" x2="450" y2="220" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FF5722" stop-opacity="0.25"/>
+      <stop offset="0%" stop-color="#FF5722" stop-opacity="0.28"/>
       <stop offset="100%" stop-color="#FF5722" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Dome Glow -->
     <radialGradient id="domeGlow" cx="450" cy="180" r="140" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.18"/>
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.2"/>
       <stop offset="70%" stop-color="#00F0FF" stop-opacity="0.03"/>
       <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Accent Gradient -->
     <linearGradient id="rustAccent" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#E05A47"/>
       <stop offset="50%" stop-color="#FF7A59"/>
       <stop offset="100%" stop-color="#E05A47"/>
     </linearGradient>
 
-    <!-- Subtle Scanline / Grid Pattern -->
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
       <line x1="0" y1="0" x2="30" y2="0" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
       <line x1="0" y1="0" x2="0" y2="30" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
@@ -36,12 +31,12 @@
   </defs>
 
   <!-- Base Panel -->
-  <rect width="900" height="280" rx="12" fill="url(#skyGrad)"/>
-  <rect width="900" height="280" rx="12" fill="url(#grid)"/>
-  <rect width="900" height="280" rx="12" stroke="#252636" stroke-width="1.5"/>
+  <rect width="900" height="280" rx="10" fill="url(#skyGrad)"/>
+  <rect width="900" height="280" rx="10" fill="url(#grid)"/>
+  <rect width="900" height="280" rx="10" stroke="#252636" stroke-width="1.5"/>
 
-  <!-- Mars Star Dust / Distant Nodes -->
-  <g fill="#FFFFFF" opacity="0.3">
+  <!-- Star Dust Particles -->
+  <g fill="#FFFFFF" opacity="0.35">
     <circle cx="85" cy="45" r="1"/>
     <circle cx="160" cy="70" r="1"/>
     <circle cx="230" cy="35" r="1.5" opacity="0.6"/>
@@ -60,7 +55,7 @@
   <rect x="0" y="140" width="900" height="80" fill="url(#horizonGlow)"/>
 
   <!-- ARES CITY SETTLEMENT SILHOUETTE & HABITAT GEOMETRY -->
-  <g opacity="0.8">
+  <g opacity="0.85">
     <!-- Secondary Dome Left -->
     <ellipse cx="280" cy="205" rx="65" ry="32" fill="#16121D" stroke="#E05A47" stroke-opacity="0.3" stroke-width="1"/>
     <path d="M 230 205 Q 280 180 330 205" stroke="#E05A47" stroke-opacity="0.2" stroke-width="0.8" fill="none"/>
@@ -72,7 +67,6 @@
     <!-- Central Ares Metropolis Biome Dome -->
     <ellipse cx="450" cy="200" rx="130" ry="60" fill="#191322" stroke="#00F0FF" stroke-opacity="0.35" stroke-width="1.2"/>
     <ellipse cx="450" cy="200" rx="130" ry="60" fill="url(#domeGlow)"/>
-    <!-- Dome Geodesic Arches -->
     <path d="M 340 200 Q 450 150 560 200" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="1" fill="none"/>
     <path d="M 380 200 Q 450 160 520 200" stroke="#00F0FF" stroke-opacity="0.2" stroke-width="0.8" fill="none"/>
     <line x1="450" y1="140" x2="450" y2="200" stroke="#00F0FF" stroke-opacity="0.2" stroke-width="0.8"/>
@@ -107,7 +101,7 @@
     </g>
   </g>
 
-  <!-- Foreground Dark Horizon Anchor -->
+  <!-- Foreground Horizon Anchor -->
   <rect x="0" y="215" width="900" height="65" fill="#0A060C" opacity="0.95"/>
   <line x1="0" y1="215" x2="900" y2="215" stroke="#252636" stroke-width="1"/>
 
@@ -129,14 +123,14 @@
 
   <!-- Node & Field Classification -->
   <text x="450" y="126" fill="url(#rustAccent)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" font-weight="700" letter-spacing="2.5" text-anchor="middle">
-    NODE ONLINE · COMPUTER SCIENCE · GRAPHICS · SPATIAL COMPUTING
+    NODE ONLINE · COMPUTER SCIENCE · GRAPHICS &amp; SPATIAL COMPUTING
   </text>
 
   <!-- Telemetry Baseline Info -->
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" letter-spacing="1.2">
     <circle cx="65" cy="245" r="4" fill="#22C55E"/>
-    <text x="78" y="249" fill="#22C55E" font-weight="600">NODE ACTIVE</text>
-    <text x="450" y="249" fill="#8F95B2" text-anchor="middle">[ SECTOR: 40.72° N, 73.65° W // ADELPHI UNIVERSITY ]</text>
-    <text x="835" y="249" fill="#8F95B2" text-anchor="end">SYS.VER 2.4.0</text>
+    <text x="78" y="249" fill="#22C55E" font-weight="600">GITHUB UPLINK // ACTIVE</text>
+    <text x="450" y="249" fill="#8F95B2" text-anchor="middle">[ ADELPHI UNIVERSITY // NEW YORK ]</text>
+    <text x="835" y="249" fill="#8F95B2" text-anchor="end">PROFILE NODE // ONLINE</text>
   </g>
 </svg>
