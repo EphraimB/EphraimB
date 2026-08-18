@@ -102,12 +102,17 @@ Rising Junior pursuing a **B.S. in Computer Science at Adelphi University**. Foc
 ## `// HABITAT TELEMETRY METRICS`
 
 <div align="center">
-  <a href="https://github.com/EphraimB">
-    <img src="https://github-readme-stats.vercel.app/api?username=EphraimB&show_icons=true&theme=radical&bg_color=1E1E2E&title_color=E05A47&text_color=CDD6F4&icon_color=E05A47&border_color=E05A47&hide_border=false" alt="Ephraim's GitHub Telemetry" height="165" />
-  </a>
-  <a href="https://github.com/EphraimB">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=EphraimB&theme=radical&background=1E1E2E&ring=E05A47&fire=E05A47&currStreakLabel=E05A47&sideLabels=CDD6F4&dates=CDD6F4&border=E05A47&hide_border=false" alt="Ephraim's Activity Streak" height="165" />
-  </a>
+
+[![Subnet Followers](https://img.shields.io/github/followers/EphraimB?style=for-the-badge&logo=github&logoColor=white&labelColor=1E1E2E&color=E05A47&label=SUBNET%20PEERS)](https://github.com/EphraimB?tab=followers)
+[![Orbital Activity](https://img.shields.io/badge/COMMITS-SYNCHRONIZED-E05A47?style=for-the-badge&logo=git&logoColor=white&labelColor=1E1E2E)](https://github.com/EphraimB)
+[![Active Repositories](https://img.shields.io/badge/PAYLOADS-ACTIVE%20REPOSITORIES-E05A47?style=for-the-badge&logo=github&logoColor=white&labelColor=1E1E2E)](https://github.com/EphraimB?tab=repositories)
+
+<br><br>
+
+<a href="https://github.com/EphraimB">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EphraimB&bg_color=1E1E2E&color=E05A47&line=E05A47&point=FFFFFF&area=true&area_color=E05A47&title_color=E05A47&hide_border=true&custom_title=ARES%20TELEMETRY%20ACTIVITY%20STREAM" alt="Ares Telemetry Activity Stream" width="95%" />
+</a>
+
 </div>
 
 ---
