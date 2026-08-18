@@ -1,0 +1,72 @@
+﻿<svg width="100%" height="auto" viewBox="0 0 1000 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="netBg" x1="500" y1="0" x2="500" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08090E"/>
+      <stop offset="100%" stop-color="#140F18"/>
+    </linearGradient>
+
+    <linearGradient id="hubGlow" x1="220" y1="35" x2="780" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1B1428"/>
+      <stop offset="100%" stop-color="#120D1A"/>
+    </linearGradient>
+
+    <pattern id="gridNet" width="30" height="30" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="30" y2="0" stroke="#FFFFFF" stroke-opacity="0.025" stroke-width="1"/>
+      <line x1="0" y1="0" x2="0" y2="30" stroke="#FFFFFF" stroke-opacity="0.025" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Base Panel -->
+  <rect width="1000" height="230" rx="12" fill="url(#netBg)"/>
+  <rect width="1000" height="230" rx="12" fill="url(#gridNet)"/>
+  <rect width="1000" height="230" rx="12" stroke="#252636" stroke-width="1.5"/>
+
+  <!-- Corner Reticles -->
+  <path d="M 14 26 L 14 14 L 26 14" stroke="#E05A47" stroke-width="1.5" fill="none"/>
+  <path d="M 986 26 L 986 14 L 974 14" stroke="#E05A47" stroke-width="1.5" fill="none"/>
+  <path d="M 14 204 L 14 216 L 26 216" stroke="#E05A47" stroke-width="1.5" fill="none"/>
+  <path d="M 986 204 L 986 216 L 974 216" stroke="#E05A47" stroke-width="1.5" fill="none"/>
+
+  <!-- Top Section Label -->
+  <text x="35" y="32" fill="#8F95B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" font-weight="700" letter-spacing="2">
+    03 / NETWORK ACCESS // TOPOLOGY MAP
+  </text>
+
+  <!-- Connecting Data Buses with Animated Signal Stream -->
+  <path d="M 500 105 L 500 135 M 270 135 L 730 135 M 270 135 L 270 150 M 730 135 L 730 150" stroke="#E05A47" stroke-width="1.5" stroke-opacity="0.35" fill="none"/>
+  <path d="M 500 105 L 500 135 M 270 135 L 730 135 M 270 135 L 270 150 M 730 135 L 730 150" stroke="#FF7A59" stroke-width="1.5" stroke-dasharray="8 16" fill="none">
+    <animate attributeName="stroke-dashoffset" values="0;-48" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="500" cy="135" r="3" fill="#E05A47"/>
+  <circle cx="270" cy="135" r="2.5" fill="#E05A47"/>
+  <circle cx="730" cy="135" r="2.5" fill="#E05A47"/>
+
+  <!-- NODE 01: PRIMARY COMMAND HUB (PROMINENT NEXUS) -->
+  <g>
+    <rect x="200" y="35" width="600" height="70" rx="8" fill="url(#hubGlow)" stroke="#E05A47" stroke-width="1.6"/>
+    <circle cx="225" cy="56" r="4.5" fill="#22C55E">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="238" y="60" fill="#22C55E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10" font-weight="700" letter-spacing="1.5">PRIMARY NEXUS // ONLINE</text>
+    <text x="225" y="83" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" letter-spacing="1">NODE 01 // ARES CITY COMMAND HUB</text>
+    <text x="770" y="80" fill="#8F95B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" text-anchor="end">ephraimbecker.com ↗</text>
+  </g>
+
+  <!-- NODE 02: BIKING FORECAST ENGINE -->
+  <g>
+    <rect x="70" y="150" width="400" height="56" rx="7" fill="#110D1B" stroke="#2B2E46" stroke-width="1.2"/>
+    <circle cx="90" cy="169" r="3.5" fill="#22C55E"/>
+    <text x="100" y="172" fill="#8F95B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="9" font-weight="700" letter-spacing="1">SATELLITE NODE // ONLINE</text>
+    <text x="90" y="192" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">NODE 02 // BIKING FORECAST ENGINE</text>
+    <text x="450" y="190" fill="#8F95B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10" text-anchor="end">biking.ephraimbecker.com ↗</text>
+  </g>
+
+  <!-- NODE 03: PORTFOLIO ARCHIVES -->
+  <g>
+    <rect x="530" y="150" width="400" height="56" rx="7" fill="#110D1B" stroke="#2B2E46" stroke-width="1.2"/>
+    <circle cx="550" cy="169" r="3.5" fill="#22C55E"/>
+    <text x="560" y="172" fill="#8F95B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="9" font-weight="700" letter-spacing="1">ARCHIVE NODE // ONLINE</text>
+    <text x="550" y="192" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">NODE 03 // PORTFOLIO ARCHIVES</text>
+    <text x="910" y="190" fill="#8F95B2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="10" text-anchor="end">ephraimbecker.com/portfolio ↗</text>
+  </g>
+</svg>

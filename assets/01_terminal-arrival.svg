@@ -1,0 +1,144 @@
+﻿<svg width="100%" height="auto" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Martian Dusk Sky Gradient -->
+    <linearGradient id="skyGrad" x1="500" y1="0" x2="500" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06070B"/>
+      <stop offset="50%" stop-color="#110C17"/>
+      <stop offset="85%" stop-color="#221018"/>
+      <stop offset="100%" stop-color="#0C070D"/>
+    </linearGradient>
+
+    <!-- Mars Horizon Ambient Dusk Glow -->
+    <linearGradient id="horizonGlow" x1="500" y1="110" x2="500" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF5722" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#FF5722" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Central Geodesic Dome Glow -->
+    <radialGradient id="domeGlow" cx="500" cy="220" r="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.22">
+        <animate attributeName="stop-opacity" values="0.16;0.32;0.16" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="70%" stop-color="#00F0FF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Rust Accent Gradient -->
+    <linearGradient id="rustAccent" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E05A47"/>
+      <stop offset="50%" stop-color="#FF7A59"/>
+      <stop offset="100%" stop-color="#E05A47"/>
+    </linearGradient>
+
+    <!-- Precision Tech Grid Pattern -->
+    <pattern id="hudGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="30" y2="0" stroke="#FFFFFF" stroke-opacity="0.025" stroke-width="1"/>
+      <line x1="0" y1="0" x2="0" y2="30" stroke="#FFFFFF" stroke-opacity="0.025" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Base Panel -->
+  <rect width="1000" height="320" rx="12" fill="url(#skyGrad)"/>
+  <rect width="1000" height="320" rx="12" fill="url(#hudGrid)"/>
+  <rect width="1000" height="320" rx="12" stroke="#252636" stroke-width="1.5"/>
+
+  <!-- Star Dust Particles with Staggered Pulse -->
+  <g fill="#FFFFFF">
+    <circle cx="80" cy="60" r="1" opacity="0.3"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="95" r="1.2" opacity="0.5"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="250" cy="45" r="1" opacity="0.4"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="5s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="80" r="1.5" opacity="0.6"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="50" r="1" opacity="0.3"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="4.5s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="95" r="1.5" opacity="0.7"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="890" cy="40" r="1" opacity="0.4"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" begin="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="85" r="1.2" opacity="0.5"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Distant Martian Mountain Ridge Silhouettes -->
+  <path d="M0 215 Q160 180 380 205 T760 190 Q900 175 1000 210 L1000 320 L0 320 Z" fill="#130C13" opacity="0.9"/>
+  <path d="M0 230 Q260 200 560 225 T1000 220 L1000 320 L0 320 Z" fill="#0C070C"/>
+  <rect x="0" y="140" width="1000" height="120" fill="url(#horizonGlow)"/>
+
+  <!-- ARES CITY SETTLEMENT SILHOUETTE & ILLUMINATED BIODOMES -->
+  <g opacity="0.9">
+    <!-- Left Hab Dome -->
+    <ellipse cx="280" cy="235" rx="80" ry="38" fill="#15101C" stroke="#E05A47" stroke-opacity="0.35" stroke-width="1"/>
+    <path d="M 220 235 Q 280 208 340 235" stroke="#E05A47" stroke-opacity="0.25" stroke-width="0.8" fill="none"/>
+
+    <!-- Right Hab Dome -->
+    <ellipse cx="720" cy="235" rx="80" ry="38" fill="#15101C" stroke="#E05A47" stroke-opacity="0.35" stroke-width="1"/>
+    <path d="M 660 235 Q 720 208 780 235" stroke="#E05A47" stroke-opacity="0.25" stroke-width="0.8" fill="none"/>
+
+    <!-- Central Metropolis Geodesic Dome -->
+    <ellipse cx="500" cy="230" rx="150" ry="68" fill="#181124" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1.2"/>
+    <ellipse cx="500" cy="230" rx="150" ry="68" fill="url(#domeGlow)"/>
+    <path d="M 380 230 Q 500 175 620 230" stroke="#00F0FF" stroke-opacity="0.3" stroke-width="1" fill="none"/>
+    <path d="M 420 230 Q 500 185 580 230" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="0.8" fill="none"/>
+    <line x1="500" y1="162" x2="500" y2="230" stroke="#00F0FF" stroke-opacity="0.25" stroke-width="0.8"/>
+
+    <!-- Spires with Synchronized Pulsing Beacons -->
+    <rect x="180" y="195" width="14" height="40" fill="#191322" stroke="#2D283E" stroke-width="1"/>
+    <line x1="187" y1="165" x2="187" y2="195" stroke="#E05A47" stroke-width="1.2"/>
+    <circle cx="187" cy="165" r="2.5" fill="#FF5722">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <rect x="810" y="190" width="16" height="45" fill="#191322" stroke="#2D283E" stroke-width="1"/>
+    <line x1="818" y1="160" x2="818" y2="190" stroke="#FFB300" stroke-width="1.2"/>
+    <circle cx="818" cy="160" r="2.5" fill="#FFB300">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Pressurized Transit Tube with Animated Pulse Stream -->
+    <path d="M 80 238 L 920 238" stroke="#23263B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 80 238 L 920 238" stroke="#00F0FF" stroke-width="1.5" stroke-dasharray="16 32" opacity="0.7">
+      <animate attributeName="stroke-dashoffset" values="0;-96" dur="3s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Colony City Light Dots -->
+    <g fill="#FFB300">
+      <circle cx="184" cy="205" r="1.2"/>
+      <circle cx="188" cy="212" r="1.2"/>
+      <circle cx="814" cy="202" r="1.2"/>
+      <circle cx="820" cy="210" r="1.2"/>
+      <circle cx="475" cy="220" r="1.5" fill="#00F0FF"/>
+      <circle cx="500" cy="212" r="1.5" fill="#00F0FF"/>
+      <circle cx="525" cy="220" r="1.5" fill="#00F0FF"/>
+    </g>
+  </g>
+
+  <!-- Foreground Horizon Divider -->
+  <line x1="20" y1="250" x2="980" y2="250" stroke="#252636" stroke-width="1.2"/>
+
+  <!-- Corner Reticles -->
+  <path d="M 18 36 L 18 18 L 36 18" stroke="#E05A47" stroke-width="2" fill="none"/>
+  <path d="M 982 36 L 982 18 L 964 18" stroke="#E05A47" stroke-width="2" fill="none"/>
+  <path d="M 18 284 L 18 302 L 36 302" stroke="#E05A47" stroke-width="2" fill="none"/>
+  <path d="M 982 284 L 982 302 L 964 302" stroke="#E05A47" stroke-width="2" fill="none"/>
+
+  <!-- Top Telemetry Header -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" letter-spacing="2">
+    <circle cx="45" cy="40" r="3.5" fill="#22C55E">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="56" y="44" fill="#22C55E" font-weight="700">01 / ARRIVAL</text>
+    <text x="500" y="44" fill="#8F95B2" text-anchor="middle" font-weight="600">ARES CITY // ACCESS TERMINAL</text>
+    <text x="955" y="44" fill="#8F95B2" text-anchor="end">NODE: ADELPHI-01</text>
+  </g>
+
+  <!-- Hero Identity Typography -->
+  <text x="500" y="102" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" letter-spacing="4" text-anchor="middle">
+    EPHRAIM BECKER
+  </text>
+  <text x="500" y="132" fill="url(#rustAccent)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" font-weight="700" letter-spacing="3" text-anchor="middle">
+    COMPUTER SCIENCE @ ADELPHI UNIVERSITY · GRAPHICS &amp; SPATIAL SYSTEMS
+  </text>
+
+  <!-- Baseline Navigation Coordinates -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" letter-spacing="1.5">
+    <circle cx="50" cy="285" r="3.5" fill="#22C55E"/>
+    <text x="62" y="289" fill="#22C55E" font-weight="600">TERMINAL READY</text>
+    <text x="500" y="289" fill="#8F95B2" text-anchor="middle">[ STATUS: ACCESS AUTHORIZED ]</text>
+    <text x="950" y="289" fill="#8F95B2" text-anchor="end">INITIALIZE ➔</text>
+  </g>
+</svg>

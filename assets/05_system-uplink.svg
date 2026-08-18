@@ -1,0 +1,40 @@
+﻿<svg width="100%" height="auto" viewBox="0 0 1000 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="uplinkBg" x1="500" y1="0" x2="500" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#190F16"/>
+      <stop offset="100%" stop-color="#0E080F"/>
+    </linearGradient>
+
+    <linearGradient id="btnGlow" x1="250" y1="50" x2="750" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E05A47"/>
+      <stop offset="100%" stop-color="#FF7A59"/>
+    </linearGradient>
+
+    <pattern id="gridUp" width="30" height="30" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="30" y2="0" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+      <line x1="0" y1="0" x2="0" y2="30" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Panel Base -->
+  <rect width="1000" height="120" rx="10" fill="url(#uplinkBg)"/>
+  <rect width="1000" height="120" rx="10" fill="url(#gridUp)"/>
+  <rect width="1000" height="120" rx="10" stroke="#E05A47" stroke-width="1.5"/>
+
+  <!-- Corner Reticles -->
+  <path d="M 12 20 L 12 10 L 22 10" stroke="#FF7A59" stroke-width="1.5" fill="none"/>
+  <path d="M 988 20 L 988 10 L 978 10" stroke="#FF7A59" stroke-width="1.5" fill="none"/>
+  <path d="M 12 100 L 12 110 L 22 110" stroke="#FF7A59" stroke-width="1.5" fill="none"/>
+  <path d="M 988 100 L 988 110 L 978 110" stroke="#FF7A59" stroke-width="1.5" fill="none"/>
+
+  <!-- Center Label -->
+  <text x="500" y="38" fill="#CDD6F4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" font-weight="700" letter-spacing="3" text-anchor="middle">
+    FULL SYSTEM UPLINK AVAILABLE // LAUNCH INTERACTIVE HABITAT
+  </text>
+
+  <!-- Main Button -->
+  <rect x="280" y="52" width="440" height="46" rx="6" fill="url(#btnGlow)"/>
+  <text x="500" y="81" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="900" letter-spacing="2" text-anchor="middle">
+    ENTER ARES CITY →
+  </text>
+</svg>
