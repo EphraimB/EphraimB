@@ -4,22 +4,17 @@
 
 <br><br>
 
-<code>EPHRAIM BECKER</code> &nbsp;·&nbsp; <code>COMPUTER SCIENCE @ ADELPHI UNIVERSITY</code> &nbsp;·&nbsp; <code>GRAPHICS · SPATIAL COMPUTING · SYSTEMS</code>
-
-<br><br>
+<b>EPHRAIM BECKER</b><br>
+<sub>COMPUTER SCIENCE @ ADELPHI UNIVERSITY &nbsp;·&nbsp; GRAPHICS &amp; SPATIAL COMPUTING &nbsp;·&nbsp; REAL-TIME SYSTEMS</sub>
 
 </div>
 
-<table width="100%">
-  <tr>
-    <td width="100%">
-      <sub><b>01 / OPERATOR DOSSIER</b></sub><br>
-      <b>Ephraim Becker</b> is an undergraduate Computer Science student (Rising Junior) at <b>Adelphi University</b> specializing in real-time graphics programming, full-stack systems, and spatial interfaces. His work centers on transitioning foundational web architectures into high-performance C++ graphics systems, exploring how interactive environments can adaptively interface with spatial computing and human cognitive focus states.
-    </td>
-  </tr>
-</table>
+<br><br>
 
-<br>
+<sub><b>01 / OPERATOR</b></sub><br>
+Undergraduate Computer Science student (Rising Junior) at **Adelphi University** specializing in graphics programming, real-time rendering pipelines, and spatial interfaces. Transitioning full-stack web engineering foundations into high-performance C++ graphics systems and adaptive spatial environments interfacing with cognitive focus states.
+
+<br><br>
 
 <div align="center">
 
@@ -27,43 +22,15 @@
 
 </div>
 
-<table width="100%">
-  <tr>
-    <td colspan="2" width="100%">
-      <table width="100%">
-        <tr>
-          <td>
-            <sub><b>02 / INFRASTRUCTURE · PRIMARY NEXUS</b></sub><br>
-            <b>NODE 01 — ARES CITY COMMAND HUB</b> &nbsp; <code>[● DEPLOYED // LIVE]</code>
-            <p>Central Habitat OS digital ecosystem and personal operations station. Engineered with retro-futuristic spatial layouts, modular workspaces, and colony telemetry navigation.</p>
-            <code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · <code>Cloudflare Pages</code>
-          </td>
-          <td align="right" valign="middle" width="170">
-            <a href="https://ephraimbecker.com"><b>[ OPEN HUB ↗ ]</b></a>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <sub><b>SATELLITE NODE</b></sub><br>
-      <b>NODE 02 — BIKING FORECAST ENGINE</b> &nbsp; <code>[● DEPLOYED]</code>
-      <p>Real-time atmospheric telemetry and wind-vector route optimization engine for cyclists.</p>
-      <code>TypeScript</code> · <code>React</code> · <code>Tailwind CSS</code> · <code>Vercel</code><br><br>
-      <a href="https://biking.ephraimbecker.com"><b>[ OPEN ENGINE ↗ ]</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <sub><b>ARCHIVE NODE</b></sub><br>
-      <b>NODE 03 — PORTFOLIO ARCHIVES</b> &nbsp; <code>[● DEPLOYED]</code>
-      <p>Comprehensive retrospective engineering index and technical project repository.</p>
-      <code>Next.js</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · <code>Cloudflare Pages</code><br><br>
-      <a href="https://ephraimbecker.com/portfolio"><b>[ OPEN ARCHIVE ↗ ]</b></a>
-    </td>
-  </tr>
-</table>
-
 <br>
+
+<sub><b>02 / INFRASTRUCTURE NODES</b></sub>
+
+* **[Node 01 // Ares City Command Hub](https://ephraimbecker.com)** `[● DEPLOYED]` — Central Habitat OS personal digital ecosystem and spatial workspace console. Built with `Next.js`, `React`, `TypeScript`, `Tailwind CSS`, and `Cloudflare Pages`.
+* **[Node 02 // Biking Forecast Engine](https://biking.ephraimbecker.com)** `[● DEPLOYED]` — Real-time atmospheric telemetry and wind-vector route optimization engine for cyclists. Built with `TypeScript`, `React`, `Tailwind CSS`, and `Vercel`.
+* **[Node 03 // Portfolio Archives](https://ephraimbecker.com/portfolio)** `[● DEPLOYED]` — Comprehensive retrospective engineering index and technical project repository. Built with `Next.js`, `TypeScript`, `Tailwind CSS`, and `Cloudflare Pages`.
+
+<br><br>
 
 <div align="center">
 
@@ -71,30 +38,15 @@
 
 </div>
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <sub><b>03 / ARCHITECTURE · LAYER 01</b></sub><br>
-      <b>CORE LANGUAGES</b>
-      <p>Low-level memory management, real-time rendering algorithms, and type-safe systems.</p>
-      <code>C</code> · <code>C++</code> · <code>TypeScript</code> · <code>JavaScript</code> · <code>HTML5 / CSS3</code>
-    </td>
-    <td width="33%" valign="top">
-      <sub><b>03 / ARCHITECTURE · LAYER 02</b></sub><br>
-      <b>INTERFACE &amp; SURFACE</b>
-      <p>Modular frontend architectures, reactive UI states, and responsive design systems.</p>
-      <code>Next.js</code> · <code>React</code> · <code>Tailwind CSS</code>
-    </td>
-    <td width="34%" valign="top">
-      <sub><b>03 / ARCHITECTURE · LAYER 03</b></sub><br>
-      <b>RUNTIME &amp; INFRASTRUCTURE</b>
-      <p>POSIX development environments, automated edge deployment, and CI/CD pipelines.</p>
-      <code>Linux</code> · <code>Git</code> · <code>GitHub Actions</code> · <code>Cloudflare Pages</code> · <code>Vercel</code>
-    </td>
-  </tr>
-</table>
-
 <br>
+
+<sub><b>03 / TECHNICAL ARCHITECTURE</b></sub>
+
+* **CORE** &nbsp;·&nbsp; `C` · `C++` · `TypeScript` · `JavaScript` · `HTML5 / CSS3`
+* **SURFACE** &nbsp;·&nbsp; `Next.js` · `React` · `Tailwind CSS`
+* **RUNTIME** &nbsp;·&nbsp; `Linux` · `Git` · `GitHub Actions` · `Cloudflare Pages` · `Vercel`
+
+<br><br>
 
 <div align="center">
 
@@ -102,66 +54,22 @@
 
 </div>
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <sub><b>04 / RESEARCH · THEORETICAL</b></sub><br>
-      <b>ADAPTIVE BCI INTERFACES</b> &nbsp; <code>[RESEARCH]</code>
-      <p>Investigating theoretical interface frameworks that explore how spatial layouts and cognitive density could dynamically adapt to user attention and focus states.</p>
-    </td>
-    <td width="33%" valign="top">
-      <sub><b>04 / RESEARCH · ACTIVE BUILD</b></sub><br>
-      <b>REAL-TIME C++ GRAPHICS</b> &nbsp; <code>[IN DEVELOPMENT]</code>
-      <p>Studying core rasterization math, memory-efficient data structures, and fundamental shader rendering pipelines built from first principles.</p>
-    </td>
-    <td width="34%" valign="top">
-      <sub><b>04 / RESEARCH · THEORETICAL</b></sub><br>
-      <b>XR NAVIGATION HUDS</b> &nbsp; <code>[RESEARCH]</code>
-      <p>Conceptualizing heads-up display telemetry layouts for outdoor navigation and dynamic cycling environments.</p>
-    </td>
-  </tr>
-</table>
-
 <br>
 
-<table width="100%">
-  <tr>
-    <td width="25%" align="center">
-      <sub><b>NODE STATUS</b></sub><br>
-      <code>● ONLINE // ACTIVE</code>
-    </td>
-    <td width="25%" align="center">
-      <sub><b>PRIMARY REPOSITORY</b></sub><br>
-      <code>EphraimB/EphraimB</code>
-    </td>
-    <td width="25%" align="center">
-      <sub><b>PRIMARY SYSTEMS</b></sub><br>
-      <code>GRAPHICS · SPATIAL</code>
-    </td>
-    <td width="25%" align="center">
-      <sub><b>LOCATION</b></sub><br>
-      <code>NEW YORK, USA</code>
-    </td>
-  </tr>
-</table>
+<sub><b>04 / RESEARCH &amp; FUTURE DIRECTIONS</b></sub>
 
-<table width="100%">
-  <tr>
-    <td width="25%" align="center">
-      <sub><b>HABITAT CORE</b></sub><br>
-      <a href="https://ephraimbecker.com"><b>COMMAND HUB ↗</b></a>
-    </td>
-    <td width="25%" align="center">
-      <sub><b>ENGINEERING INDEX</b></sub><br>
-      <a href="https://ephraimbecker.com/portfolio"><b>PORTFOLIO ↗</b></a>
-    </td>
-    <td width="25%" align="center">
-      <sub><b>CODE REPOSITORIES</b></sub><br>
-      <a href="https://github.com/EphraimB"><b>GITHUB ↗</b></a>
-    </td>
-    <td width="25%" align="center">
-      <sub><b>PROFESSIONAL NETWORK</b></sub><br>
-      <a href="https://linkedin.com/in/ephraim-becker"><b>LINKEDIN ↗</b></a>
-    </td>
-  </tr>
-</table>
+* `[RESEARCH]` **Adaptive BCI Interfaces** — Investigating theoretical interface frameworks that explore how spatial layouts and information density could dynamically adapt to user attention and cognitive workload.
+* `[IN DEVELOPMENT]` **C++ Graphics Systems** — Studying core rasterization math, memory-efficient data structures, and fundamental shader rendering pipelines built from first principles.
+* `[RESEARCH]` **XR Navigation HUDs** — Conceptualizing heads-up display spatial telemetry layouts for dynamic outdoor navigation and cycling environments.
+
+<br><br>
+
+<div align="center">
+
+<code>● ONLINE</code> &nbsp;·&nbsp; <code>EphraimB/EphraimB</code> &nbsp;·&nbsp; <code>GRAPHICS · SPATIAL</code> &nbsp;·&nbsp; <code>NEW YORK, USA</code>
+
+<br><br>
+
+[**COMMAND HUB ↗**](https://ephraimbecker.com) &nbsp;·&nbsp; [**PORTFOLIO ↗**](https://ephraimbecker.com/portfolio) &nbsp;·&nbsp; [**GITHUB ↗**](https://github.com/EphraimB) &nbsp;·&nbsp; [**LINKEDIN ↗**](https://linkedin.com/in/ephraim-becker)
+
+</div>
